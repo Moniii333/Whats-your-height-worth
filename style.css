@@ -1,0 +1,59 @@
+body {
+    background-image: url(https://media.istockphoto.com/id/1021215264/photo/usd-rain-on-black-background.jpg?b=1&s=170667a&w=0&k=20&c=aD0s7_l1dv7ABRX-jf-Gsz8MBBThKUj_kPJ7iHbHw9w=);
+    /* background-size: auto; */
+}
+
+.height-inches, .height-feet, .money {
+    margin-top: 15px;
+    
+}
+
+.dinero {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(165, 232, 165);
+    text-align: center;
+    font-size: 23px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(165, 232, 165);
+    font-size: 45px;
+    letter-spacing: .4rem;
+}
+
+.stacked-bills, .stacked-bills:hover {
+    background-color: rgb(165, 232, 165);
+    border: 3px solid lawngreen;
+    border-radius: 8px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.stacked-bills:active {
+    cursor: pointer;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: scale(0.90);
+}
+
+.answer-field {
+    color: antiquewhite;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .dinero {
+        column-width: auto;
+    }
+
+    .answer-field {
+        width: 300px;
+    }
+}
